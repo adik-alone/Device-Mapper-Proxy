@@ -10,21 +10,21 @@ git clone https://github.com/adik-alone/Device-Mapper-Proxy.git
 ```bash
 make
 ```
-3. Выдать права на исполнение
+3. Выдаём права на исполнение скриптов
 ```bash
 chmod u+x build.sh test.sh clean.sh w_test.sh r_test.sh
 ```
-3. Сетапим модуль
+4. Загружаем модуль
 ```bash
 sudo ./build.sh
 ```
-4. Тестирование
+5. Тестируем модуль
 ```bash
 sudo ./test.sh
 sudo ./w_test.sh
 sudo ./r_test.sh
 ```
-5. Выгрузка
+6. Выгружаем модуль
 ```bash
 sudo ./clean.sh
 ```
